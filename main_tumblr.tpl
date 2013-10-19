@@ -277,7 +277,7 @@
                     
                   {block:DayPage} 
                      <div id="tagresults">
-                        {Month} {DayOfMonth}, {Year}
+                        {DayOfMonth}, {Month} {Year}
                     </div>
                   {/block:DayPage}
                     
@@ -290,7 +290,7 @@
                                   {block:Title}<h2>{Title}</h2>{/block:Title}
                                     {Body}
                                     {block:Date}
-                                        <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                        <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                         </div>
                                     {/block:Date}
                                 </div>
@@ -301,7 +301,7 @@
                                   {LinkOpenTag}<img alt="{PhotoAlt}" src="{PhotoURL-500}"/>{LinkCloseTag}
                                   {block:Caption}{Caption}{/block:Caption}
                                   {block:Date}
-                                      <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                      <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                       </div>
                                   {/block:Date}
                                 </div>
@@ -313,7 +313,7 @@
                                   <blockquote>{Quote}</blockquote>
                                   {block:Source}<cite>{Source}</cite>{/block:Source}
                                   {block:Date}
-                                      <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                      <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                       </div>
                                   {/block:Date}
                                 </div>
@@ -325,7 +325,7 @@
                                       {block:Description}{Description}{/block:Description}
                                   
                                       {block:Date}
-                                        <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                        <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                         </div>
                                     {/block:Date}
                                 
@@ -340,7 +340,7 @@
                                         </ul>
 
                                       {block:Date}
-                                        <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                        <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                         </div>
                                     {/block:Date}
 
@@ -365,7 +365,7 @@
                                   {PlayCountWithLabel}
                               
                                 {block:Date}
-                                  <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                  <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                   </div>
                                 {/block:Date}
                                 </div>
@@ -376,7 +376,7 @@
                                     {Video-500}
                                     {block:Caption}{Caption}{/block:Caption}
                                 {block:Date}
-                                  <div class="info"><a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonth}/{ShortYear}</a>
+                                  <div class="info"><a href="{Permalink}">{DayOfMonth}/{MonthNumberWithZero}/{ShortYear}</a>
                                   </div>
                                 {/block:Date}
                                 </div>
